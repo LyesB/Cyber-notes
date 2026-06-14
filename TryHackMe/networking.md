@@ -25,20 +25,52 @@
 	<li>
 		<a target="_blank" href="https://tryhackme.com/room/networkingcoreprotocols">Networking Core Protocols</a>
 		<ol>
+			<br>
 			<li>DNS (Domain Name System): <span>Is the system responsible for properly mapping a domain name to an IP address, operates at the 7th layer(Application). DNS listens on default TCP/UDP port number 53.</span>
 			</li>
+			<br>
 			<li>WHOIS: <span>S WHOIS record provides information about the entity that registered a domain name (name, phone number, email, address..etc), WHOIS records are accessible via online services or the command <code>whois</code>on linux.</span>
 			</li>
+			<br>
 			<li>HTTPS (Hypertext Transfer Protocol Secure): <span>Is the protocol that defines how the web browsers communicates with the wev sercers, relies on TCP, some common http methods: <code>GET</code>,<code>POST</code>,<code>PUT</code>,<code>DELETE</code>. HTTP listens on default TCP port number 80 and HTTPS on 443.</span>
 			</li>
+			<br>
 			<li>FTP (FILE TRANSFER PROTOCOL): <span>As the name implies, FTP is the protocol responsible for file trasfers, some common FTP commands are: <code>USER</code>,<code>PASS</code>,<code>RETR</code>,<code>STOR</code>. FTP listens on TCP port 21</span>
 			</li>
+			<br>
 			<li>SMTP (Simple Mail Transfer Protocol): <span>Is basically FTP for mail, some common SMTP commands: <code>HELO</code>,<code>MAIL FROM</code>,<code>MAIL TO</code>,<code>DATA</code>,<code>.</code>, listens on TCP port 25.</span>
 			</li>
+			<br>
 			<li>POP3 (Post Office Protocol 3): <span>Is designed to allow the client to retrieve email messages, listens on TCP port 110.</span>
 			</li>
+			<br>
 			<li>IMAP (Inernet Message Access Protocol): <span>Allows synchronizing read, moved and deleted email messages, is convinient when checking email via multiple clients, listen on TCP port 143.</span>
 			</li>
+			<br>
+		</ol>
+	</li>
+	<li>
+		<a target="_blank" href="https://tryhackme.com/room/networkingsecureprotocols">Networking Secure Protocols</a>
+		<ol>
+			<br>
+			<li>TLS (Transport Layer Security): <span>Is a cryptographic protocol operating ot the OSI model's transport layer, it allows a secure commuincation between a client and a server over an unsecure network. TLS ensures no one can read or modify the exchanged data (confidentiality an integrity).</span>
+			</li>
+			<br>
+			<li>HTTPS, SMTPS, POP3S, and IMAPS: <span>Are HTTP, SMTP, POP3, and IMAP over TLS, which is the secure version of those protocols. The secure and unsecure protocols use different ports, making a request over the secure versions require 3 steps:</span>
+			<div>1-Establish a TCP 3-way handshake</div>
+			<div>2-Establish a TLS session</div>
+			<div>3-Communicate using protocols(HTTP,SMTPS..etc)</div>
+			</li>
+			<br>
+			<li>SSH (Secure SHELL): <span>Unlike TELNET protocol, SSH is secure way communicate over an unsecure network, OpenSSH (the open source implementation of SSH) offers several benefits, some of them: Secure Authentication, Confidentiality, Integrity, Tunneling, X11 Forwarding. SHH server listens on port 22.</span>
+			</li>
+			<br>
+			<li>SFTP And FTPS: <span>SFTP is SHH FTP, and FTPS is FTP over TLS, SFTP is easy to setup, while FTPS requires a proper TLS certificate to run securly.</span>
+			</li>
+			<br>
+			<li>VPN (Virtual Private Network): <span>Organizations use VPN to allow offsite users to securely access the office network over the Internet. VPN provides a convenient solution for companies to privatly exchange information in their virtual network.</span>
+			</li>
+			<br>
 		</ol>
 	</li>
 
