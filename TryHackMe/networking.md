@@ -2,15 +2,18 @@
 	<li>
 		<a target="_blank" href="https://tryhackme.com/r/room/networkingconcepts">Networking Concepts</a>
     	<ul>
+		<br>
     		<li>ISO OSI network model</li>
     		<li>IP addresses, subnets, and routing</li>
     		<li>TCP, UDP, and port numbers</li>
     		<li>How to connect to an open TCP port from the command line</li>
+			<br>
     	</ul>
     </li>
     <li>
     	<a target="_blank" href="https://tryhackme.com/r/room/networkingessentials">Networking Essentials</a>
     	<ul>
+		<br>
     		<li>Dynamic Host Configuration Protocol (DHCP)</li>
     		<li>Address Resolution Protocol (ARP)</li>
     		<li>Network Address Translation (NAT)</li>
@@ -20,6 +23,7 @@
     				<li>Traceroute</li>
     			</ul>
     		</li>
+			<br>
     	</ul>
     </li>
 	<li>
@@ -57,9 +61,11 @@
 			</li>
 			<br>
 			<li>HTTPS, SMTPS, POP3S, and IMAPS: <span>Are HTTP, SMTP, POP3, and IMAP over TLS, which is the secure version of those protocols. The secure and unsecure protocols use different ports, making a request over the secure versions require 3 steps:</span>
-			<div>1-Establish a TCP 3-way handshake</div>
-			<div>2-Establish a TLS session</div>
-			<div>3-Communicate using protocols(HTTP,SMTPS..etc)</div>
+				<ol>
+					<li>Establish a TCP 3-way handshake</li>
+					<li>Establish a TLS session</li>
+					<li>Communicate using protocols(HTTP,SMTPS..etc)</li>
+				</ol>
 			</li>
 			<br>
 			<li>SSH (Secure SHELL): <span>Unlike TELNET protocol, SSH is secure way communicate over an unsecure network, OpenSSH (the open source implementation of SSH) offers several benefits, some of them: Secure Authentication, Confidentiality, Integrity, Tunneling, X11 Forwarding. SHH server listens on port 22.</span>
@@ -72,6 +78,18 @@
 			</li>
 			<br>
 		</ol>
+	</li>
+	<li>
+		<a target="_blank" href="https://tryhackme.com/room/wiresharkthebasics">Wireshark: The Basics</a>
+		<br>
+		<p>Wireshark is one of the most potent traffic analyser tools available, not an Intrustion Detection System (DSI). There are multiple purposes for its use:
+			<ul>
+				<li>Detecting and troubleshooting network problems</li>
+				<li>Detecting security anomalities</li>
+				<li>Investigating and learning protocol details</li>
+			</ul>
+			This room also covers packet dissection, navigation, and filtering.
+		</p>
 	</li>
 
 </ol>
