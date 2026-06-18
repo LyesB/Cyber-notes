@@ -88,8 +88,18 @@
 				<li>Detecting security anomalities</li>
 				<li>Investigating and learning protocol details</li>
 			</ul>
+			<br>
 			This room also covers packet dissection, navigation, and filtering.
 		</p>
+	</li>
+	<li>
+		<a target="_blank" href="https://tryhackme.com/room/tcpdump">Tcpdump: The Basics</a>
+		<br>
+		<p>Tcpdump is a command line packet analyzer that lets you catpure network traffic in real-time. Tcpdump and it's library libpcap are written in C and C++, are very stable and offer optimal speed. Tcpdump offers basic capture, filtering, and displaying of packets</p>
+	</li>
+	<li>
+		<a target="_blank" href="https://tryhackme.com/room/nmap">Nmap: The Basics</a>
+		<p>Nmap is an open-source network scanner, it is powerfull and flexible and can be adabted to various scenarios, some of the basic nmap uses are: host discovery, port scanning, service detection, scan timing, real-time output, and scan reports.</p>
 	</li>
 
 </ol>
